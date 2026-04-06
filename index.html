@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>სასტუმროები საქართველოში — Sastumroebi.ge</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ======== HEADER ======== -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#" class="logo">
+      sastumroebi<span class="logo-dot">.</span>ge
+    </a>
+    <nav class="header-nav">
+      <a href="#" class="nav-link">სასტუმროს დამატება</a>
+      <a href="#" class="nav-link">მხარდაჭერა</a>
+      <a href="#" class="nav-link">ჩემი მოგზაურობები</a>
+      <a href="#" class="nav-link nav-link-outline">შესვლა</a>
+      <a href="#" class="nav-link lang-btn">
+        <img src="https://flagcdn.com/24x18/ge.png" alt="GE"> KA
+      </a>
+    </nav>
+  </div>
+</header>
+
+<!-- ======== HERO + SEARCH ======== -->
+<section class="hero">
+  <div class="hero-bg">
+    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1600&h=900&fit=crop" alt="Hotel background">
+  </div>
+  <div class="hero-content">
+    <h1>იპოვეთ სასტუმრო საქართველოში</h1>
+    <p>ათასობით სასტუმრო, აპარტამენტი და საოჯახო სახლი მთელ საქართველოში</p>
+
+    <div class="search-tabs">
+      <button class="search-tab active">🏨 სასტუმროები</button>
+      <button class="search-tab">🏠 აპარტამენტები</button>
+      <button class="search-tab">🏡 კოტეჯები</button>
+      <button class="search-tab">👨‍👩‍👧‍👦 საოჯახო</button>
+    </div>
+
+    <div class="search-box">
+      <div class="search-field">
+        <label>სად მიდიხარ?</label>
+        <select>
+          <option value="">აირჩიე ქალაქი</option>
+          <option>თბილისი</option>
+          <option>ბათუმი</option>
+          <option>ბაკურიანი</option>
+          <option>გუდაური</option>
+          <option>ბორჯომი</option>
+          <option>სიღნაღი</option>
+          <option>მესტია</option>
+          <option>სტეფანწმინდა (კაზბეგი)</option>
+          <option>ქუთაისი</option>
+          <option>კობულეთი</option>
+          <option>გონიო</option>
+          <option>ურეკი</option>
+          <option>თელავი</option>
+          <option>მცხეთა</option>
+          <option>წყალტუბო</option>
+          <option>ახალციხე</option>
+        </select>
+      </div>
+      <div class="search-field">
+        <label>შესვლა</label>
+        <input type="date" value="2026-04-10">
+      </div>
+      <div class="search-field">
+        <label>გასვლა</label>
+        <input type="date" value="2026-04-14">
+      </div>
+      <div class="search-field">
+        <label>სტუმრები</label>
+        <select>
+          <option>2 სტუმარი, 1 ოთახი</option>
+          <option>1 სტუმარი, 1 ოთახი</option>
+          <option>3 სტუმარი, 1 ოთახი</option>
+          <option>4 სტუმარი, 2 ოთახი</option>
+        </select>
+      </div>
+      <button class="search-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        ძებნა
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ======== TRENDING DESTINATIONS ======== -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>პოპულარული მიმართულებები</h2>
+      <a href="#">ყველას ნახვა →</a>
+    </div>
+    <div class="dest-grid">
+      <a href="#" class="dest-card">
+        <img src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=600&h=450&fit=crop" alt="თბილისი">
+        <div class="dest-card-overlay">
+          <h3>თბილისი</h3>
+          <span>214 სასტუმრო</span>
+        </div>
+      </a>
+      <a href="#" class="dest-card">
+        <img src="https://images.unsplash.com/photo-1596436889106-be35e843f974?w=600&h=450&fit=crop" alt="ბათუმი">
+        <div class="dest-card-overlay">
+          <h3>ბათუმი</h3>
+          <span>187 სასტუმრო</span>
+        </div>
+      </a>
+      <a href="#" class="dest-card">
+        <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600&h=450&fit=crop" alt="გუდაური">
+        <div class="dest-card-overlay">
+          <h3>გუდაური</h3>
+          <span>38 სასტუმრო</span>
+        </div>
+      </a>
+      <a href="#" class="dest-card">
+        <img src="https://images.unsplash.com/photo-1587213811864-46e59f6873b1?w=600&h=450&fit=crop" alt="მესტია">
+        <div class="dest-card-overlay">
+          <h3>მესტია</h3>
+          <span>22 სასტუმრო</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ======== HOTEL LISTINGS ======== -->
+<section class="section" style="background: var(--gray-50); padding-top: 48px; padding-bottom: 56px;">
+  <div class="container">
+
+    <!-- VIP Banner -->
+    <div class="vip-banner">
+      <span class="vip-banner-icon">⭐</span>
+      <div>
+        <h3>Super VIP სასტუმროები</h3>
+        <p>რჩეული და გადამოწმებული სასტუმროები საუკეთესო სერვისით</p>
+      </div>
+    </div>
+
+    <!-- Type Filter Pills -->
+    <div class="type-pills">
+      <button class="type-pill active">ყველა</button>
+      <button class="type-pill">სასტუმრო</button>
+      <button class="type-pill">საოჯახო სასტუმრო</button>
+      <button class="type-pill">აპარტამენტი</button>
+      <button class="type-pill">ბინა</button>
+      <button class="type-pill">კოტეჯი</button>
+      <button class="type-pill">კერძო სახლი</button>
+    </div>
+
+    <div class="section-header">
+      <h2>სასტუმროები საქართველოში</h2>
+    </div>
+
+    <!-- Hotel Grid -->
+    <div class="hotel-grid">
+
+      <a href="#" class="hotel-card">
+        <div class="hotel-card-img">
+          <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=440&h=300&fit=crop" alt="">
+          <span class="hotel-card-badge">📷 18</span>
+          <span class="hotel-card-vip">VIP</span>
+        </div>
+        <div class="hotel-card-body">
+          <h4>სასტუმრო "ოლდ თბილისი"</h4>
+          <div class="hotel-card-type">სასტუმრო</div>
+          <div class="hotel-card-location">თბილისი</div>
+          <div class="hotel-card-rating"><span class="stars">★★★★</span> 4.8</div>
+        </div>
+      </a>
+
+      <a href="#" class="hotel-card">
+        <div class="hotel-card-img">
+          <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=440&h=300&fit=crop" alt="">
+          <span class="hotel-card-badge">📷 25</span>
+          <span class="hotel-card-vip">VIP</span>
+        </div>
+        <div class="hotel-card-body">
+          <h4>ორბი სითი აპარტამენტი</h4>
+          <div class="hotel-card-type">აპარტამენტი</div>
+          <div class="hotel-card-location">ბათუმი</div>
+          <div class="hotel-card-rating"><span class="stars">★★★★★</span> 4.9</div>
+        </div>
+      </a>
+
+      <a href="#" class="hotel-card">
+        <div class="hotel-card-img">
+          <img src="https://images.unsplash.com/photo-1518733057094-95b53143d2a7?w=440&h=300&fit=crop" alt="">
+          <span class="hotel-card-badge">📷 12</span>
+          <span class="hotel-card-save">♡</span>
+        </div>
+        <div class="hotel-card-body">
+          <h4>მთის სახლი</h4>
+          <div class="hotel-card-type">კოტეჯი</div>
+          <div class="hotel-card-location">გუდაური</div>
+          <div class="hotel-card-rating"><span class="stars">★★★★</span> 4.6</div>
+        </div>
+      </a>
+
+      <a href="#" class="hotel-card">
+        <div class="hotel-card-img">
+          <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=440&h=300&fit=crop" alt="">
+          <span class="hotel-card-badge">📷 15</span>
+          <span class="hotel-card-save">♡</span>
+        </div>
+        <div class="hotel-card-body">
+          <h4>კაზბეგის პანორამა</h4>
+          <div class="hotel-card-type">საოჯახო სასტუმრო</div>
+          <div class="hotel-card-location">სტეფანწმინდა</div>
+          <div class="hotel-card-rating"><span class="stars">★★★★★</span> 4.9</div>
+        </div>
+      </a>
+
+      <a href="#" class="hotel-card">
+        <div class="hotel-card-img">
+          <img src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=440&h=300&fit=crop" alt="">
+          <span class="hotel-card-badge">📷 20</span>
+          <span class="hotel-card-save">♡</span>
+        </div>
+        <div class="hotel-card-body">
+          <h4>შავი ზღვის აპარტამენტი</h4>
+          <div class="hotel-card-type">აპარტამენტი</div>
+          <div class="hotel-card-location">ბათუმი</div>
+          <div class="hotel-card-rating"><span class="stars">★★★★</span> 4.5</div>
+        </div>
+      </a>
+
+      <a href="#" class="hotel-card">
+        <div class="hotel-card-img">
+          <img src="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=440&h=300&fit=crop" alt="">
+          <span class="hotel-card-badge">📷 10</span>
+          <span class="hotel-card-save">♡</span>
+        </div>
+        <div class="hotel-card-body">
+          <h4>სიღნაღის ციხესთან</h4>
+          <div class="hotel-card-type">საოჯახო სასტუმრო</div>
+          <div class="hotel-card-location">სიღნაღი</div>
+          <div class="hotel-card-rating"><span class="stars">★★★★</span> 4.7</div>
+        </div>
+      </a>
+
+      <a href="#" class="hotel-card">
+        <div class="hotel-card-img">
+          <img src="https://images.unsplash.com/photo-1455587734955-081b22074882?w=440&h=300&fit=crop" alt="">
+          <span class="hotel-card-badge">📷 22</span>
+          <span class="hotel-card-vip">VIP</span>
+        </div>
+        <div class="hotel-card-body">
+          <h4>ბორჯომის ხეობა</h4>
+          <div class="hotel-card-type">სასტუმრო</div>
+          <div class="hotel-card-location">ბორჯომი</div>
+          <div class="hotel-card-rating"><span class="stars">★★★★★</span> 4.8</div>
+        </div>
+      </a>
+
+      <a href="#" class="hotel-card">
+        <div class="hotel-card-img">
+          <img src="https://images.unsplash.com/photo-1587213811864-46e59f6873b1?w=440&h=300&fit=crop" alt="">
+          <span class="hotel-card-badge">📷 8</span>
+          <span class="hotel-card-save">♡</span>
+        </div>
+        <div class="hotel-card-body">
+          <h4>მესტიის სვანური კოშკი</h4>
+          <div class="hotel-card-type">კერძო სახლი</div>
+          <div class="hotel-card-location">მესტია</div>
+          <div class="hotel-card-rating"><span class="stars">★★★★</span> 4.4</div>
+        </div>
+      </a>
+
+      <a href="#" class="hotel-card">
+        <div class="hotel-card-img">
+          <img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=440&h=300&fit=crop" alt="">
+          <span class="hotel-card-badge">📷 14</span>
+          <span class="hotel-card-save">♡</span>
+        </div>
+        <div class="hotel-card-body">
+          <h4>ქუთაისის ცენტრი</h4>
+          <div class="hotel-card-type">აპარტამენტი</div>
+          <div class="hotel-card-location">ქუთაისი</div>
+          <div class="hotel-card-rating"><span class="stars">★★★★</span> 4.3</div>
+        </div>
+      </a>
+
+      <a href="#" class="hotel-card">
+        <div class="hotel-card-img">
+          <img src="https://images.unsplash.com/photo-1610641818989-c2051b5e2cfd?w=440&h=300&fit=crop" alt="">
+          <span class="hotel-card-badge">📷 16</span>
+          <span class="hotel-card-save">♡</span>
+        </div>
+        <div class="hotel-card-body">
+          <h4>ბაკურიანის ლოჯი</h4>
+          <div class="hotel-card-type">კოტეჯი</div>
+          <div class="hotel-card-location">ბაკურიანი</div>
+          <div class="hotel-card-rating"><span class="stars">★★★★</span> 4.6</div>
+        </div>
+      </a>
+
+      <a href="#" class="hotel-card">
+        <div class="hotel-card-img">
+          <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?w=440&h=300&fit=crop" alt="">
+          <span class="hotel-card-badge">📷 11</span>
+          <span class="hotel-card-save">♡</span>
+        </div>
+        <div class="hotel-card-body">
+          <h4>თელავის ღვინის სახლი</h4>
+          <div class="hotel-card-type">საოჯახო სასტუმრო</div>
+          <div class="hotel-card-location">თელავი</div>
+          <div class="hotel-card-rating"><span class="stars">★★★★</span> 4.5</div>
+        </div>
+      </a>
+
+      <a href="#" class="hotel-card">
+        <div class="hotel-card-img">
+          <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=440&h=300&fit=crop" alt="">
+          <span class="hotel-card-badge">📷 19</span>
+          <span class="hotel-card-save">♡</span>
+        </div>
+        <div class="hotel-card-body">
+          <h4>გონიო ბიჩი აპარტამენტი</h4>
+          <div class="hotel-card-type">აპარტამენტი</div>
+          <div class="hotel-card-location">გონიო</div>
+          <div class="hotel-card-rating"><span class="stars">★★★★</span> 4.7</div>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- Load More -->
+    <div class="load-more-wrap">
+      <button class="load-more-btn">შემდეგი 10 სასტუმრო ↓</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- ======== PROMO BANNER ======== -->
+<section class="section">
+  <div class="container">
+    <div class="promo-banner">
+      <div class="promo-text">
+        <h2>გაქვთ სასტუმრო?</h2>
+        <p>დაამატეთ თქვენი სასტუმრო ჩვენს პლატფორმაზე და მიიღეთ ათასობით ახალი სტუმარი საქართველოდან და მსოფლიოდან</p>
+      </div>
+      <a href="#" class="promo-btn">სასტუმროს დამატება →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ======== TOURISM SECTION ======== -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>ტურიზმი და ღირშესანიშნაობები</h2>
+    </div>
+    <div class="tourism-grid">
+
+      <div class="tourism-block">
+        <h4>გიდი</h4>
+        <ul>
+          <li><a href="#">გიორგი კახიანი — თბილისი</a></li>
+          <li><a href="#">ნინო ბერიძე — ბათუმი</a></li>
+          <li><a href="#">დავით წერეთელი — მესტია</a></li>
+          <li><a href="#">მარიამ ჯავახიშვილი — კახეთი</a></li>
+          <li><a href="#">ლევან გოგიჩაიშვილი — გუდაური</a></li>
+        </ul>
+      </div>
+
+      <div class="tourism-block">
+        <h4>ციხე / კოშკი</h4>
+        <ul>
+          <li><a href="#">ანანურის ციხე</a></li>
+          <li><a href="#">ხერთვისის ციხე</a></li>
+          <li><a href="#">გონიოს ციხე</a></li>
+        </ul>
+      </div>
+
+      <div class="tourism-block">
+        <h4>ნაკრძალი</h4>
+        <ul>
+          <li><a href="#">ლაგოდეხის ნაკრძალი</a></li>
+          <li><a href="#">ბაბანეურის ნაკრძალი</a></li>
+          <li><a href="#">კინტრიშის ნაკრძალი</a></li>
+          <li><a href="#">რიწის ნაკრძალი</a></li>
+          <li><a href="#">სათაფლიის ნაკრძალი</a></li>
+        </ul>
+      </div>
+
+      <div class="tourism-block">
+        <h4>ეროვნული პარკი</h4>
+        <ul>
+          <li><a href="#">ბორჯომ-ხარაგაულის პარკი</a></li>
+          <li><a href="#">თუშეთის პარკი</a></li>
+          <li><a href="#">ვაშლოვანის პარკი</a></li>
+          <li><a href="#">მტირალას პარკი</a></li>
+          <li><a href="#">კოლხეთის პარკი</a></li>
+        </ul>
+      </div>
+
+      <div class="tourism-block">
+        <h4>ბუნების ძეგლი</h4>
+        <ul>
+          <li><a href="#">პრომეთეს მღვიმე</a></li>
+          <li><a href="#">მარტვილის კანიონი</a></li>
+          <li><a href="#">ოკაცეს კანიონი</a></li>
+          <li><a href="#">დაშბაშის კანიონი</a></li>
+          <li><a href="#">მტირალას ჩანჩქერი</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======== FOOTER ======== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-col">
+        <h5>კომპანია</h5>
+        <ul>
+          <li><a href="#">ჩვენს შესახებ</a></li>
+          <li><a href="#">კარიერა</a></li>
+          <li><a href="#">პრესა</a></li>
+          <li><a href="#">ბლოგი</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>მხარდაჭერა</h5>
+        <ul>
+          <li><a href="#">დახმარების ცენტრი</a></li>
+          <li><a href="#">კონტაქტი</a></li>
+          <li><a href="#">ცხელი ხაზი</a></li>
+          <li><a href="#">ხშირად დასმული კითხვები</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>პარტნიორებისთვის</h5>
+        <ul>
+          <li><a href="#">სასტუმროს დამატება</a></li>
+          <li><a href="#">პარტნიორობა</a></li>
+          <li><a href="#">რეკლამა</a></li>
+          <li><a href="#">API</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>პოპულარული ქალაქები</h5>
+        <ul>
+          <li><a href="#">თბილისი (214)</a></li>
+          <li><a href="#">ბათუმი (187)</a></li>
+          <li><a href="#">ბაკურიანი (45)</a></li>
+          <li><a href="#">გუდაური (38)</a></li>
+          <li><a href="#">ბორჯომი (32)</a></li>
+          <li><a href="#">ქუთაისი (34)</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2025 შპ.ს „სასტუმროები.ჯი" — ყველა უფლება დაცულია</span>
+      <div class="footer-langs">
+        <a href="#"><img src="https://flagcdn.com/20x15/ge.png" alt="GE"> ქართული</a>
+        <a href="#"><img src="https://flagcdn.com/20x15/gb.png" alt="EN"> English</a>
+        <a href="#"><img src="https://flagcdn.com/20x15/ru.png" alt="RU"> Русский</a>
+        <a href="#"><img src="https://flagcdn.com/20x15/tr.png" alt="TR"> Türkçe</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Minimal JS for interactivity -->
+<script>
+  // Tab switching
+  document.querySelectorAll('.search-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.search-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+    });
+  });
+
+  // Type pills
+  document.querySelectorAll('.type-pill').forEach(pill => {
+    pill.addEventListener('click', () => {
+      document.querySelectorAll('.type-pill').forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+    });
+  });
+
+  // Heart toggle
+  document.querySelectorAll('.hotel-card-save').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      btn.textContent = btn.textContent === '♡' ? '♥' : '♡';
+      btn.style.color = btn.textContent === '♥' ? '#d4111e' : 'inherit';
+    });
+  });
+</script>
+
+</body>
+</html>
